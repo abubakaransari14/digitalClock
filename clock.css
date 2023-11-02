@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100wh;
+    /* background: #2d2f41;
+    box-shadow: 0 5px 25px rgba(14, 21, 37,0.8); */
+    background: #d8d8d8;
+    
+}
+.slogan{
+    /* border: 2px solid red; */
+    width: 500px;
+    padding: 20px;
+    /* height: 100vh; */
+    /* background-color: #5fd4ff; */
+    /* margin-right: 20px; */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    color: #fff;
+    padding: 40px;
+     background: #2d2f41;
+    box-shadow: 0 5px 25px rgba(14, 21, 37,0.8);   
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hour, .dot, #min{
+        display: flex;
+        /* border: 2px solid red; */
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        margin: 0 20px;
+        padding: 0 10px;
+        line-height: 125px;
+}
+
+#hour, #min{
+    font-size: 6.5em;
+    width: 125px;
+}
+.dot{
+    font-size: 5em;
+    color: #929292;
+    /* border: 2px solid red; */
+}
+#hour{
+    background: -webkit-linear-gradient(90deg, #634dff, #5fd4ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* border: 2px solid red; */
+
+}
+#min{
+    background: -webkit-linear-gradient(90deg, #ff5e9a, #ffb968);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* border: 2px solid red; */
+}
+.right-side{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ampm, #sec{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+#ampm{
+    transform:translateY(-20px);
+    background: -webkit-linear-gradient(90deg, #feac59, #f6f954);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#sec{
+    transform:translateY(20px);
+    background: -webkit-linear-gradient(90deg, #1c922e, #eeefea);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#day, #month, #year, .dsh, #day-no{
+    font-weight: 600;
+    margin: 0 5px;
+    /* padding: 0 10px; */
+       
+}
